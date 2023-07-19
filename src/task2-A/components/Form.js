@@ -76,7 +76,7 @@ export function Form() {
                 </form>
             </div>
             {data.map((abc) => {
-                return (<h3>{abc.fname} {abc.lname} {abc.contact} - {abc.email} {abc.phone}
+                return (<h3 className='text-center' style={{boxShadow:"2px 6px 6px" }}>{abc.fname} {abc.lname} {abc.contact} - {abc.email} {abc.phone}
                 </h3>)
             })}
         </>
